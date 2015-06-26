@@ -1,0 +1,32 @@
+h1 {
+  font-size: 2em;
+  margin: 0.8em 0;
+
+  span.city {
+    text-decoration: underline;
+    color: red;
+  }
+}
+
+div.filters {
+  overflow: auto;
+  span.filterButton {
+    color: #FFF;
+    background-color: #999;
+    padding: 0.1em 1em;
+    margin: 0 0.5em 1em 0;
+    cursor: pointer;
+    display: inline-block;
+
+    &.active {
+      background-color: #000;
+      &:hover {
+        background-color: #333;
+      }
+    }
+
+    &:hover {
+      background-color: #BBB;
+    }
+  }
+}
